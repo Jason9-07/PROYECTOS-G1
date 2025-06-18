@@ -4071,6 +4071,20 @@
 		)
 		(uuid "59f8ebc9-dd32-4ad7-8c0b-71b51a717596")
 	)
+	(text "J.K.F"
+		(exclude_from_sim no)
+		(at 146.05 18.796 0)
+		(effects
+			(font
+				(face "Microsoft PhagsPa")
+				(size 5 5)
+				(thickness 0.254)
+				(bold yes)
+				(color 110 0 255 1)
+			)
+		)
+		(uuid "89f4bafa-f562-4e62-a5b3-4be696914815")
+	)
 	(text "Alimentacion\nY\nRegulacion"
 		(exclude_from_sim no)
 		(at 81.788 177.038 0)
@@ -6644,31 +6658,6 @@
 			)
 		)
 	)
-	(global_label "3,3V"
-		(shape input)
-		(at 160.02 147.32 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-				(color 255 2 0 1)
-			)
-			(justify right)
-		)
-		(uuid "1ef54fb3-1280-4876-a031-9de853054a0f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 154.8936 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GIO22"
 		(shape input)
 		(at 167.64 144.78 270)
@@ -7169,7 +7158,7 @@
 	)
 	(global_label "3,3V"
 		(shape input)
-		(at 146.05 146.05 0)
+		(at 160.02 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7178,16 +7167,16 @@
 				(bold yes)
 				(color 255 2 0 1)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "80e91d39-f234-41c6-a0bc-7d3fe59c9635")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 153.6236 146.05 0)
+			(at 160.02 154.8936 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7238,6 +7227,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 148.59 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "a464c394-e083-4db9-917d-178d40d609b3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.3493 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -7582,6 +7595,30 @@
 		(uuid "d24b05b5-e6fe-4fb1-bcdc-2c1909618f44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 76.065 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "5V"
+		(shape input)
+		(at 135.89 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify right)
+		)
+		(uuid "e18adafd-e117-4c8a-8114-1110763a12c3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 130.1307 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8053,7 +8090,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 142.24 90)
+		(at 146.05 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8061,7 +8098,7 @@
 		(dnp no)
 		(uuid "11727cc4-78ba-405e-9677-8688e85a8e5b")
 		(property "Reference" "#PWR017"
-			(at 154.94 142.24 0)
+			(at 152.4 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8070,7 +8107,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.892 141.478 0)
+			(at 149.352 145.288 0)
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -8079,7 +8116,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 142.24 0)
+			(at 146.05 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +8125,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 142.24 0)
+			(at 146.05 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,7 +8134,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 142.24 0)
+			(at 146.05 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11431,7 +11468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
 			(at 40.64 174.625 0)
 			(effects
 				(font
