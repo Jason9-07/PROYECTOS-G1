@@ -11416,7 +11416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
 			(at 40.64 174.625 0)
 			(effects
 				(font
